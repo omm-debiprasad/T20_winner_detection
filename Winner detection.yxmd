@@ -1,0 +1,796 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1st Innings T20.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="matchId" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="balls" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="runs" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="tossWinner" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="battingTeam" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="bowlingTeam" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="player_out" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="venue" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2nd Innings T20.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="matchId" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="balls" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="runs" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="tossWinner" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="battingTeam" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="bowlingTeam" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="player_out" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="venue" size="254" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Field_1" selected="True" />
+            <Field field="matchId" selected="True" />
+            <Field field="balls" selected="True" />
+            <Field field="runs" selected="True" />
+            <Field field="tossWinner" selected="True" />
+            <Field field="battingTeam" selected="True" />
+            <Field field="bowlingTeam" selected="True" />
+            <Field field="player_out" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="venue" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="Byte" />
+            <Field name="matchId" size="6" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="String" />
+            <Field name="balls" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="Double" />
+            <Field name="runs" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="Byte" />
+            <Field name="tossWinner" size="12" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="String" />
+            <Field name="battingTeam" size="12" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="String" />
+            <Field name="bowlingTeam" size="12" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="String" />
+            <Field name="player_out" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="Byte" />
+            <Field name="city" size="18" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+            <Field name="venue" size="60" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\1st Innings T20.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="matchId" selected="True" size="16384" />
+            <SelectField field="balls" selected="True" />
+            <SelectField field="runs" selected="True" />
+            <SelectField field="tossWinner" selected="True" />
+            <SelectField field="battingTeam" selected="True" size="16384" />
+            <SelectField field="bowlingTeam" selected="True" />
+            <SelectField field="player_out" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="venue" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="matchId" action="GroupBy" rename="matchId" />
+            <SummarizeField field="tossWinner" action="GroupBy" rename="tossWinner" />
+            <SummarizeField field="battingTeam" action="GroupBy" rename="battingTeam" />
+            <SummarizeField field="bowlingTeam" action="GroupBy" rename="bowlingTeam" />
+            <SummarizeField field="runs" action="Sum" rename="Sum_runs" />
+            <SummarizeField field="player_out" action="Sum" rename="Sum_player_out" />
+            <SummarizeField field="balls" action="Max" rename="Max_balls" />
+            <SummarizeField field="city" action="GroupBy" rename="city" />
+            <SummarizeField field="venue" action="GroupBy" rename="venue" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="462" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="matchId" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>matchId - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Max_balls]&gt;=19.6 THEN 20 ELSE [Max_balls] ENDIF" field="Max_balls" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Max_balls = IF [Max_balls]>=19.6 THEN 20 ELSE [Max_balls] ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="tossWinner" selected="False" />
+            <SelectField field="Sum_runs" selected="True" rename="Total Runs" />
+            <SelectField field="Sum_player_out" selected="True" rename="Wickets" />
+            <SelectField field="Max_balls" selected="True" rename="Over" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="774" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([matchId], '_','.')" field="matchId" size="16384" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[matchId = Replace([matchId], '_','.')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="858" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="matchId" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Field_1" selected="True" />
+            <Field field="matchId" selected="True" />
+            <Field field="balls" selected="True" />
+            <Field field="runs" selected="True" />
+            <Field field="tossWinner" selected="True" />
+            <Field field="battingTeam" selected="True" />
+            <Field field="bowlingTeam" selected="True" />
+            <Field field="player_out" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="venue" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="Byte" />
+            <Field name="matchId" size="6" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="String" />
+            <Field name="balls" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="Double" />
+            <Field name="runs" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="Byte" />
+            <Field name="tossWinner" size="12" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="String" />
+            <Field name="battingTeam" size="12" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="String" />
+            <Field name="bowlingTeam" size="12" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="String" />
+            <Field name="player_out" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="Byte" />
+            <Field name="city" size="18" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+            <Field name="venue" size="60" source="File: C:\Users\ommde\Downloads\Compressed\archive_2\2nd Innings T20.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="matchId" selected="True" size="16384" />
+            <SelectField field="balls" selected="True" />
+            <SelectField field="runs" selected="True" />
+            <SelectField field="tossWinner" selected="True" />
+            <SelectField field="battingTeam" selected="True" size="16384" />
+            <SelectField field="bowlingTeam" selected="True" />
+            <SelectField field="player_out" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="venue" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="matchId" action="GroupBy" rename="matchId" />
+            <SummarizeField field="tossWinner" action="GroupBy" rename="tossWinner" />
+            <SummarizeField field="battingTeam" action="GroupBy" rename="battingTeam" />
+            <SummarizeField field="bowlingTeam" action="GroupBy" rename="bowlingTeam" />
+            <SummarizeField field="runs" action="Sum" rename="Sum_runs" />
+            <SummarizeField field="player_out" action="Sum" rename="Sum_player_out" />
+            <SummarizeField field="balls" action="Max" rename="Max_balls" />
+            <SummarizeField field="city" action="GroupBy" rename="city" />
+            <SummarizeField field="venue" action="GroupBy" rename="venue" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="462" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="matchId" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>matchId - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Max_balls]&gt;=19.6 THEN 20 ELSE [Max_balls] ENDIF" field="Max_balls" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Max_balls = IF [Max_balls]>=19.6 THEN 20 ELSE [Max_balls] ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="tossWinner" selected="False" />
+            <SelectField field="Sum_runs" selected="True" rename="Total Runs" />
+            <SelectField field="Sum_player_out" selected="True" rename="Wickets" />
+            <SelectField field="Max_balls" selected="True" rename="Over" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="762" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([matchId], '_','.')" field="matchId" size="16384" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[matchId = Replace([matchId], '_','.')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="858" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="matchId" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1050" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="matchId" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="matchId" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_battingTeam" selected="True" rename="Bat_1" input="Left_" />
+                <SelectField field="Left_bowlingTeam" selected="True" rename="Bal_1" input="Left_" />
+                <SelectField field="Left_Total Runs" selected="True" rename="Run_1" input="Left_" />
+                <SelectField field="Left_Wickets" selected="True" rename="Wicket_1" input="Left_" />
+                <SelectField field="Left_Over" selected="True" rename="Over_1" input="Left_" />
+                <SelectField field="Right_matchId" selected="True" rename="Right_matchId" input="Right_" />
+                <SelectField field="Right_battingTeam" selected="True" rename="Bat_2" input="Right_" />
+                <SelectField field="Right_bowlingTeam" selected="True" rename="Bal_2" input="Right_" />
+                <SelectField field="Right_Total Runs" selected="True" rename="Run_2" input="Right_" />
+                <SelectField field="Right_Wickets" selected="True" rename="Wicket_2" input="Right_" />
+                <SelectField field="Right_Over" selected="True" rename="Over_2" input="Right_" />
+                <SelectField field="Right_city" selected="False" rename="Right_city" input="Right_" />
+                <SelectField field="Right_venue" selected="False" rename="Right_venue" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1146" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="matchId" source="Formula: Replace([matchId], '_','.')" type="Int32" column="1" />
+                <Field name="Bat_1" size="16384" source="Summarize: GroupBy - battingTeam" type="String" column="2" />
+                <Field name="Bal_1" size="12" source="Summarize: GroupBy - bowlingTeam" type="String" column="3" />
+                <Field name="Run_1" source="Summarize: Sum - runs" type="Int64" column="4" />
+                <Field name="Wicket_1" source="Summarize: Sum - player_out" type="Int64" column="5" />
+                <Field name="Over_1" source="Formula: IF [Max_balls]&gt;=19.6 THEN 20 ELSE [Max_balls] ENDIF" type="Double" column="6" />
+                <Field name="city" size="18" source="Summarize: GroupBy - city" type="V_String" column="7" />
+                <Field name="venue" size="60" source="Summarize: GroupBy - venue" type="V_String" column="8" />
+                <Field name="Right_matchId" source="Formula: Replace([matchId], '_','.')" type="Int32" column="9" />
+                <Field name="Bat_2" size="16384" source="Summarize: GroupBy - battingTeam" type="String" column="10" />
+                <Field name="Bal_2" size="12" source="Summarize: GroupBy - bowlingTeam" type="String" column="11" />
+                <Field name="Run_2" source="Summarize: Sum - runs" type="Int64" column="12" />
+                <Field name="Wicket_2" source="Summarize: Sum - player_out" type="Int64" column="13" />
+                <Field name="Over_2" source="Formula: IF [Max_balls]&gt;=19.6 THEN 20 ELSE [Max_balls] ENDIF" type="Double" column="14" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="matchId" source="Formula: Replace([matchId], '_','.')" type="Int32" column="1" />
+                <Field name="battingTeam" size="16384" source="Summarize: GroupBy - battingTeam" type="String" column="2" />
+                <Field name="bowlingTeam" size="12" source="Summarize: GroupBy - bowlingTeam" type="String" column="3" />
+                <Field name="Total Runs" source="Summarize: Sum - runs" type="Int64" column="4" />
+                <Field name="Wickets" source="Summarize: Sum - player_out" type="Int64" column="5" />
+                <Field name="Over" source="Formula: IF [Max_balls]&gt;=19.6 THEN 20 ELSE [Max_balls] ENDIF" type="Double" column="6" />
+                <Field name="city" size="18" source="Summarize: GroupBy - city" type="V_String" column="7" />
+                <Field name="venue" size="60" source="Summarize: GroupBy - venue" type="V_String" column="8" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1242" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Run_2]) or [Run_1]=[Run_2] THEN 'Draw' &#xA;ELSEIF [Run_2]&gt;[Run_1] THEN [Bat_2] ELSE [Bat_1] ENDIF" field="Winning Team" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Winning Team = IF IsNull([Run_2]) or [Run_1]=[Run_2] THEN 'Draw' 
+ELSEIF [Run_2]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1338" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\ommde\Downloads\Compressed\archive_2\Output.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1338" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ommde\AppData\Local\Temp\Engine_13560_22760ffb8325aa49bf119ebce4dfe445_\Engine_13560_d3eaedeee471e04689c0f68e94a2e7dd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="42" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="42" Connection="Join" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="42" Connection="Left" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>T20</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f74f5a32-82e5-43f6-a95f-187675c10529" />
+      <Telemetry>
+        <PreviousWorkflowId value="4e3924d1-517b-4c7c-b04f-f33507ca16d4" />
+        <OriginWorkflowId value="4e3924d1-517b-4c7c-b04f-f33507ca16d4" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
